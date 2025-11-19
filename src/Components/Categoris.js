@@ -3,7 +3,7 @@
 const Categoris = ({categoris,onSelect}) => {
   return (
     <>
-    <img src="./quiz/image/quiz-img1.png" />
+    <img src={`${process.env.PUBLIC_URL}/image/quiz-img1.png`} alt="퀴즈 이미지" />
     <div className="category">
       <p>어떤 주제의 심리테스트를 해볼까요?</p>
       <div className="category-wrapper">
