@@ -1,4 +1,5 @@
 //1. 사용할 속성 import하기
+//test
 
 const Categoris = ({categoris,onSelect}) => {
   return (
